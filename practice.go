@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	var x = 4
+	fmt.Println(reflect.TypeOf(float64(x) * 5.5))
 } 
 
