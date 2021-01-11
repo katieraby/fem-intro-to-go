@@ -15,8 +15,8 @@ package main
 
 // 	// ***************************
 
-// 	// var myArray [5]int
-// 	// var mySlice []int = make([]int, 5)
+	//var myArray [5]int
+	//var mySlice []int = make([]int, 5)
 
 // 	// fmt.Println(myArray)
 // 	// fmt.Println(mySlice)

@@ -1,17 +1,18 @@
 // // Uncomment the entire file
 
 package main
-
-// import "fmt"
-
-// func main() {
-
-// 	var userEmails map[int]string
-
-// 	userEmails[1] = "user1@gmail.com"
-// 	userEmails[2] = "user2@gmail.com"
-
-// 	fmt.Println(userEmails)
+//
+//import "fmt"
+//
+//func main() {
+//
+//	var userEmails map[int]string = make(map[int]string)
+//
+//	userEmails[1] = "user1@gmail.com"
+//	userEmails[2] = "user2@gmail.com"
+//
+//	fmt.Println(userEmails)
+//}
 
 // 	// ****************************
 
