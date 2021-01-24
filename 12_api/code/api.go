@@ -41,7 +41,9 @@ func (p *Person) getHomeworld() {
 		log.Print("Error reading response body", err)
 	}
 
-	json.Unmarshal(bytes, &p.Homeworld)
+	if err := json.Unmarshal(bytes, &p.Homeworld); err != nil {
+		fmt.Println("Error parsing json", err)
+	}
 }
 
 func getPeople(w http.ResponseWriter, r *http.Request) {
